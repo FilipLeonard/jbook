@@ -13,3 +13,7 @@
   - `"prepublishOnly": "npm run build"`
 - optional: commit to git
 - run `npm publish` (must be logged in)
+
+### Lerna
+
+- `lerna publish --no-push`, won't try to push to a remote repo

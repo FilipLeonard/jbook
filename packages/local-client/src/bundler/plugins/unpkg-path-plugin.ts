@@ -23,7 +23,6 @@ export const unpkgPathPlugin = () => {
 
       // Handle main file in a module
       build.onResolve({ filter: /.*/ }, async (args: esbuild.OnResolveArgs) => {
-        console.log(args);
         return {
           namespace: 'a',
           path: `https://unpkg.com/${args.path}`,
