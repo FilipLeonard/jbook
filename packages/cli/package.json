@@ -1,6 +1,6 @@
 {
   "name": "jsnippet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "files": [
@@ -18,10 +18,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@jsnippet/local-client": "^1.0.0"
+    "@jsnippet/local-client": "^1.0.1"
   },
   "devDependencies": {
-    "@jsnippet/local-api": "^1.0.0",
+    "@jsnippet/local-api": "^1.0.1",
     "@types/node": "^16.10.3",
     "commander": "^8.2.0",
     "esbuild": "0.8.26",
