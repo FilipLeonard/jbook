@@ -1,0 +1,9 @@
+.animated {
+  width: 80vw;
+  height: 50vh;
+  margin: auto;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

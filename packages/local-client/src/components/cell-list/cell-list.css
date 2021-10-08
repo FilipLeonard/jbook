@@ -1,0 +1,9 @@
+/* allow scrolling with mb*/
+.cell-list {
+  margin: 0 25px 50vh;
+}
+
+/* allow more scrolling when dragging */
+.react-draggable-transparent-selection .cell-list {
+  margin-bottom: 100vh;
+}
